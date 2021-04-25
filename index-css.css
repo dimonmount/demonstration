@@ -1,0 +1,175 @@
+
+.header{
+	height:100vh;
+	background-image: url("https://s0.rbk.ru/v6_top_pics/media/img/3/06/755813427125063.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.navbar{ 
+	padding-top: 60px;
+	background-color: none;
+	font-size:25px;
+}
+.nav-link , .navbar-brand{ color: #f4f4f4; font-size: 25px;  cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.navbar-toggler{  background:#fff !important;}
+.nav-link:hover{
+	background-color:#FF7400;
+	border-radius: 10px;
+	color:white;
+
+}
+.content1{
+	margin: auto;
+	padding: 2em;
+	margin-top: 15vh;
+}
+.content1 h2{
+	text-align: center;
+	color: white ;
+	width: 70%;
+	margin:auto;
+}
+.content1 p{
+	justify-content: space-between; 
+	margin-top:30px;
+	color:white;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.name{
+	justify-content: center;
+}
+.name h2 {
+}
+.content1 button{
+	margin-top: 10px;
+	border:1px  solid #FF7400;
+	background:#FF7400;
+	color:white;
+}
+.grey{
+	background-color: #F2ECEC;
+}
+.container-fluid{
+	padding: 60px 0;
+}
+.content2 h3{
+	margin: auto;
+	margin-bottom: 60px;
+	text-align: center;
+	width: 80%;
+}
+.card{
+	margin: 0 25px 0 -10px;	
+}
+.content2 .card-title{
+	margin: 20px auto;
+}
+.col-lg-4{
+	padding: 0;!important
+}
+.card-footer{
+	border: none;
+	background-color:#FF7400; 
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+.card-footer:hover{
+	background-color:#6c757d; 
+	text-decoration: none;
+	color: white;
+}
+
+.main3{
+	height:80vh;
+	background-image: url("https://s2.best-wallpaper.net/wallpaper/1920x1200/1803/City-night-view-UAE-Dubai-skyscrapers-roads-lights_1920x1200.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.main3 .btn{
+	margin-top: 4vh;
+	padding: 10px 30px;
+	color: white;
+	background-color: #FF7400;
+	font-size: 20px;
+}
+.main3 .btn:hover{
+	background-color: #6c757d;
+}
+.main3 h3{
+	margin: auto;
+	margin-top:10vh;
+	width: 60%;
+	text-align: center;
+	color: white;
+}
+.content3{
+	margin-top: 4vh;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.mt-8{
+	margin-top: 18vh;
+	margin-bottom: 10vh
+
+}
+.main3 .card{
+	margin:0 0 30px 0;
+	background-color:  #F2ECEC;
+}
+.main-title{
+	font-size: 90px;
+	color:  #FF7400;
+}
+.yellow{
+	color:white;
+	background-color:#FF7400;
+}
+.yellow h3{
+	padding: 10px;
+	margin:0 auto;
+}
+@media (max-width: 991.98px){
+	.card{
+		margin: 20px auto;
+	}
+	.header{
+	height:130vh;
+	}
+	.main3{
+	height:100vh;
+	}
+}
+.content4 .card{
+	border:none;
+	background-color: white;
+}
+.content4 .card-body, .card{
+	padding:0;
+}
+.content4 .btn{
+	width: 50%;
+}
+.city{
+	color:white;
+	height:calc(20vh+60px);
+	background-image: url("https://s2.best-wallpaper.net/wallpaper/1920x1200/1803/City-night-view-UAE-Dubai-skyscrapers-roads-lights_1920x1200.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.city .btn{
+	padding: 10px 70px;
+}
+a{
+	color:#000000;
+}
+a:hover{
+	text-decoration: none;
+	color:#FF7400;
+}
